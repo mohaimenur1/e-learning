@@ -12,3 +12,13 @@
   width: 50px;
   border-radius: 50%;
 }
+
+@media screen and (max-width: 767px) {
+  .course-img {
+    width: 100%;
+  }
+  .card-body {
+    padding-top: 16px !important;
+    padding-bottom: 16px !important;
+  }
+}
