@@ -1,17 +1,6 @@
 /** @format */
 
-/* carousel image style */
-
-/* Course Styling Section */
-
-/* footer section */
-
-.bg-icon-color {
-  background-color: #322c2c;
-  height: 50px;
-  width: 50px;
-  border-radius: 50%;
-}
+/* Carousel opacity */
 
 .carousel-item::before {
   content: '';
@@ -25,12 +14,11 @@
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-/* @media screen and (max-width: 767px) {
-  .course-img {
-    width: 100%;
-  }
-  .card-body {
-    padding-top: 16px !important;
-    padding-bottom: 16px !important;
-  }
-} */
+/* footer icon background*/
+
+.bg-icon-color {
+  background-color: #322c2c;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
